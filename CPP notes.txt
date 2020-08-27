@@ -1,0 +1,22 @@
+cmath has the math functions of c++
+cin >> var; stores int, double, char and strings without spaces in between
+getline(cin, var); stores a complete line or string including a space
+you can use ar[] when declaring an array but you have to declare its value too at the same time like ar[] = {a, b, c, d}
+to assign values later in an array ,you'll have to define the size of the array at the time of declaration of the array
+an array can hold only one data type i.e, char ar[], int ar[], double ar[], bool  ar[], float ar[[] etc
+pointers are data types which store the address value of a variable (&var)
+constructors are functions which are automatially called when initialising an object of that class
+constructors can be used to easily assign attributes to the objects according to the class template by taking required att. values as arguments of the cons. function
+multiple constructors can be made inside a class to deal with diff. requirements
+object methods already have access to the attributes of the object so u dont have to declare the attributes in the function if they are already declared in the class
+functions and attributes can be set private so that they cannot be accessed from outside of the class.
+making attributes and functions private helps to control their values and stop invalid values to be set to the attribs.
+getters and setters fucntions are made to set and get the value of private attributes without allowing the user to input invalid values to the attributes or function
+you can inherit from parent class all its functions and the syntax is:
+  Class A : public Class B
+        {
+
+        };
+to inherit values of attributes from parent class constructor you can use the syntax:
+    consChild(arg1, arg2 , arg3):consParent(arg1, arg2)
+you can inherit all values from parent class but you have to assign those values again in the child class, see BasicOOP5 for reference
