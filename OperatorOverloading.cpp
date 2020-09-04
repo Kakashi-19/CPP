@@ -16,7 +16,7 @@ using namespace std;
 
        }
 
-       booth operator+(booth obj) //operator overloaded function operator(+,-,*,/)
+       booth operator+(booth obj) //operator overloaded function operator(+,-,*,/ or other symbols)
        {
            booth noob;
            //cout<<num<<endl; use this line to see how the num variable gets its value
