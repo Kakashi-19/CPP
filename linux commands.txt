@@ -1,0 +1,2 @@
+linux commands 
+ip addr - to view ip address

@@ -39,7 +39,7 @@ class Laptop : public Phone
 
    Laptop(string com, int pr, double ra, string us):Phone(com, pr, ra) //inheriting attribute values from parent class constructor
    {
-     manuf=com;  //assigning all attribute values, inherited a.w.a created
+    manuf=com;  //assigning all attribute values, inherited a.w.a created
      price=pr;
      rating=ra;
      use=us;
